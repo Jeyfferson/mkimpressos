@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK IMPRESSOS - Gráfica e Soluções Visuais</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-uppercase" href="#">
+        <i class="bi bi-printer-fill text-primary me-2"></i>MK IMPRESSOS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Destaques</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20MK%20Impressos%20e%20gostaria%20de%20um%20orçamento." 
+               target="_blank" 
+               class="btn btn-success fw-bold rounded-pill px-4 btn-whatsapp">
+              <i class="bi bi-whatsapp me-2"></i>Pedir Orçamento
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SEÇÃO 1: CARROSSEL HERO -->
+  <section id="inicio">
+    <div id="carouselHero" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Banner 1 -->
+        <div class="carousel-item active hero-slide slide-1">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+            <h1 class="display-4 fw-bold text-white text-uppercase" data-aos="fade-down">Impressão Rápida e com Qualidade</h1>
+            <p class="fs-5 text-white-50 mb-4" data-aos="fade-up" data-aos-delay="200">Cartões de visita, panfletos, banners e muito mais para o seu negócio.</p>
+            <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20fazer%20um%20orçamento%20de%20impressão." target="_blank" class="btn btn-primary btn-lg rounded-pill px-4 fw-bold shadow-lg" data-aos="zoom-in" data-aos-delay="400">
+              <i class="bi bi-whatsapp me-2"></i>Falar no WhatsApp
+            </a>
+          </div>
+        </div>
+        <!-- Banner 2 -->
+        <div class="carousel-item hero-slide slide-2">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+            <h1 class="display-4 fw-bold text-white text-uppercase">Comunicação Visual de Impacto</h1>
+            <p class="fs-5 text-white-50 mb-4">Destaque sua marca com adesivos, lonas e placas personalizadas.</p>
+            <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20informações%20sobre%20comunicação%20visual." target="_blank" class="btn btn-primary btn-lg rounded-pill px-4 fw-bold shadow-lg">
+              <i class="bi bi-whatsapp me-2"></i>Solicitar Cotação
+            </a>
+          </div>
+        </div>
+        <!-- Banner 3 -->
+        <div class="carousel-item hero-slide slide-3">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100">
+            <h1 class="display-4 fw-bold text-white text-uppercase">Brindes e Material Promocional</h1>
+            <p class="fs-5 text-white-50 mb-4">Soluções sob medida para divulgar sua empresa com eficiência.</p>
+            <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20saber%20mais%20sobre%20material%20promocional." target="_blank" class="btn btn-primary btn-lg rounded-pill px-4 fw-bold shadow-lg">
+              <i class="bi bi-whatsapp me-2"></i>Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  
+
+      <!-- SEÇÃO 2: NOSSOS SERVIÇOS E PRODUTOS -->
+  <section id="servicos" class="py-5 bg-light">
+    <div class="container py-4">
+      
+      <!-- Título da Seção -->
+      <div class="text-center mb-5" data-aos="fade-up">
+        <span class="badge bg-primary text-uppercase px-3 py-2 mb-2">O que fazemos</span>
+        <h2 class="fw-bold display-6 text-dark">Serviços e Soluções Visuais</h2>
+        <p class="text-muted col-md-8 mx-auto">
+          Da gráfica tradicional aos brindes e peças personalizadas em MDF, PVC, ACM e Impressão 3D.
+        </p>
+      </div>
+
+      <!-- Grid de Cards de Serviços -->
+      <div class="row g-4">
+
+        <!-- Card 1: Gráfica Expressa -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 border-0 shadow-sm card-service overflow-hidden">
+            <div class="card-img-wrapper">
+              <img src="assets/mk (1).jpg" class="card-img-top service-img" alt="Impressos Gráficos">
+              <span class="badge bg-secondary badge-category">Gráfica Tradicional</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h4 class="card-title fw-bold h5">Cartões, Banners e Panfletos</h4>
+              <p class="card-text text-muted flex-grow-1">
+                Impressos de alta qualidade para sua empresa: cartões de visita, panfletos, folders, talões, banners em lona e adesivos variados.
+              </p>
+              <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Impressos%20Gráficos%20(Cartões/Panfletos/Banners)." 
+                 target="_blank" class="btn btn-outline-primary w-100 rounded-pill mt-3 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: MDF Personalizado -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 border-0 shadow-sm card-service overflow-hidden">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80" class="card-img-top service-img" alt="Brindes em MDF">
+              <span class="badge bg-warning text-dark badge-category">Corte & Gravura</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h4 class="card-title fw-bold h5">Brindes e Peças em MDF</h4>
+              <p class="card-text text-muted flex-grow-1">
+                Cortes e gravações personalizadas em MDF para brindes corporativos, caixas, troféus, quadros decorativos e lembrancinhas.
+              </p>
+              <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20produtos%20em%20MDF." 
+                 target="_blank" class="btn btn-outline-primary w-100 rounded-pill mt-3 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Placas de PVC -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 border-0 shadow-sm card-service overflow-hidden">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?auto=format&fit=crop&w=600&q=80" class="card-img-top service-img" alt="Sinalização em PVC">
+              <span class="badge bg-info text-dark badge-category">Comunicação Visual</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h4 class="card-title fw-bold h5">Sinalização em PVC</h4>
+              <p class="card-text text-muted flex-grow-1">
+                Placas de sinalização, placas indicativas e quadros em PVC expandido. Leves, duráveis e com impressão direta de alta resolução.
+              </p>
+              <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Placas%20em%20PVC." 
+                 target="_blank" class="btn btn-outline-primary w-100 rounded-pill mt-3 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Fachadas e Letreiros ACM -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 border-0 shadow-sm card-service overflow-hidden">
+            <div class="card-img-wrapper">
+              <img src="assets/pvc1.jpg" class="card-img-top service-img" alt="Fachadas em ACM">
+              <span class="badge bg-dark badge-category">Estruturas Premium</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h4 class="card-title fw-bold h5">Fachadas e Placas em ACM</h4>
+              <p class="card-text text-muted flex-grow-1">
+                Comunicação visual sofisticada para comércios e consultórios. Fachadas em ACM com excelente acabamento e alta durabilidade.
+              </p>
+              <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20Fachada/Placa%20em%20ACM." 
+                 target="_blank" class="btn btn-outline-primary w-100 rounded-pill mt-3 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Impressão 3D -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 border-0 shadow-sm card-service overflow-hidden">
+            <div class="card-img-wrapper">
+              <img src="assets/3d.jpg" class="card-img-top service-img" alt="Impressão 3D">
+              <span class="badge bg-success badge-category">Inovação & Tech</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h4 class="card-title fw-bold h5">Impressão 3D Personalizada</h4>
+              <p class="card-text text-muted flex-grow-1">
+                Criação de protótipos, peças sob medida, troféus 3D, chaveiros corporativos, maquetes e objetos decorativos exclusivos.
+              </p>
+              <a href="https://wa.me/5500000000000?text=Olá!%20Tenho%20um%20projeto/ideia%20para%20Impressão%203D%20e%20quero%20um%20orçamento." 
+                 target="_blank" class="btn btn-outline-primary w-100 rounded-pill mt-3 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Brindes & Kits Corporativos -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 border-0 shadow-sm card-service overflow-hidden">
+            <div class="card-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80" class="card-img-top service-img" alt="Brindes Corporativos">
+              <span class="badge bg-danger badge-category">Kits & Eventos</span>
+            </div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h4 class="card-title fw-bold h5">Brindes Corporativos</h4>
+              <p class="card-text text-muted flex-grow-1">
+                Kits personalizados para eventos, datas comemorativas, brindes de fim de ano e materiais promocionais sob medida.
+              </p>
+              <a href="https://wa.me/5500000000000?text=Olá!%20Quero%20informações%20sobre%20Brindes%20Corporativos." 
+                 target="_blank" class="btn btn-outline-primary w-100 rounded-pill mt-3 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotar no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20da%20MK%20Impressos%20e%20preciso%20de%20um%20orçamento." 
+     target="_blank" 
+     class="whatsapp-float shadow-lg" 
+     title="Fale conosco no WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
